@@ -1,0 +1,2 @@
+in this task i uses HCS04 ultra sonic sensor and BHT1750fvi sensor to act as a external interrupt. when any of the sensor reach a certain threshold it will output a digital signal from one pin to another pin of the arduino, that will trigger a intterput event.
+in that i also uses timer to interrupts as well. BHT1750 reading is in the loop function to act as the arduino is busy doing something. but when the interval reached the timer interrupt kick in and make that arduino to run the code that is scheduled.
